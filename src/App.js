@@ -62,18 +62,6 @@ function App() {
     .catch((err) => {
        console.log(err.message);
     });
-    // fetch(NOTE_API,
-    // {headers: {
-    //   authorization: "6b9b5a48-85f4-4d18-9118-877a366de95a"
-    // }}
-    // )
-    //    .then((response) => response.json())
-    //    .then((data) => {
-    //     setState(prev => ({...state, notes: data}))
-    //    })
-    //    .catch((err) => {
-    //       console.log(err.message);
-    //    });
  }, []);
 
   const handleNewNoteOpen = () => {
