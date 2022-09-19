@@ -131,7 +131,7 @@ function App() {
     body: message,
     headers: {
        'Content-type': 'application/json; charset=UTF-8',
-        authorization: "6b9b5a48-85f4-4d18-9118-877a366de95a"
+        authorization: AUTH_KEY
     },
     })
     .then((response) => response.json())
